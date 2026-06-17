@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.t1 {
+  width: 80%;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.t2 {
+  width: 80%;
+  font-family: sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.sticky-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  position: sticky;
+  bottom: 0;
+
+  top: 100%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.para {
+  font-family: 'Libre Baskerville', serif;
+  line-height: 25px;
+  font-size: 20px;
+  color: #73777b;
+  font-weight: 100;
+  padding: 0px 2px;
+}
+
+.line {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.t3 {
+  font-weight: 500;
+}
+
+.copy {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  line-height: 35px;
+}
+
+.footer {
+  font-family: sans-serif;
+}
+
+
+model-viewer {
+  background-color: #817D8B;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 878px;
+  border-radius:20px; 
+  
+
+
+  /* max-height: fit-content; */
+
+
+}
+@media only screen and (max-width :700px) { 
+  .view{
+   height: 75vh;
+  }
+   model-viewer {
+     height:100%;
+ }
+ }
+  /* Set the model-viewer to fill the screen */
+  model-viewer {
+    width: 80%;
+    height: 60vh;
+  }
+
+  /* Hide the AR button on mobile devices */
+  @media only screen and (max-width: 600px) {
+    model-viewer button[title="Activate AR"] {
+      display: none;
+    }
+  }
+
+  /* Adjust the camera position for mobile devices */
+  @media only screen and (max-width: 600px) {
+    model-viewer {
+      --initial-orbit: 0deg 120deg 1m;
+      --camera-orbit: 0deg 120deg 1m;
+    }
+  }
+
+ .child2{
+  width:50%;
+  margin:20px;
+  padding:10px;
+  text-align:center;
+}
+.img{
+  width:50%;
+  text-align: left;
+}
+.container1{
+  display:flex;
+}
+

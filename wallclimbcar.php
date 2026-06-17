@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>EDODWAJA NEW</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="The real education" name="keywords">
+    <meta content="The real education" name="description">
+
+    <!-- Favicon -->
+    <link href="img/Logo Infinity Symbol.png" rel="icon">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #061429;">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar & Carousel Start -->
+
+   
+    <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0" style="background-color:  hsl(198, 100%, 60%); ">
+      <a href="https://edodwaja.com/" class="navbar-brand p-0" target="_blank">
+          
+          <img style="height: 60px;" src="img/e_11.png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="fa fa-bars"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0" >
+              <div class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:black;">Technologies</a>
+                  <div class="dropdown-menu m-0">
+                      <a href="ar.php" class="dropdown-item">AR</a>
+                      <a href="vr.php" class="dropdown-item">VR</a>
+                      <a href="webtech.php" class="dropdown-item">Web technologies</a>
+                      <a href="robotics.php" class="dropdown-item">Robotics</a>
+                      <a href="iot.php" class="dropdown-item">IoT</a>
+                  </div>
+              </div>
+              <a href="index.php" class="nav-item nav-link" style="color:black;">Home</a>
+              <a href="about.php" class="nav-item nav-link" style="color:black;">About</a>
+              <a href="contact.php" class="nav-item nav-link" style="color:black;">Contact</a>
+
+          </div>
+      </div>
+          
+  </nav>
+        
+
+        
+    <!-- Navbar & Carousel End -->
+    
+    <div style="padding-top: 8%;">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script></div> -->
+
+  <script>
+    $(document).ready(function () {
+      $("#myModal").modal("show");
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+ 
+  &nbsp;  &nbsp;
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+  crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function () {
+    $("#myModal").modal("show");
+  });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"></script>
+
+
+
+<!-- 3d content -- variable1=glbfile variable2=usdzfile variable3=alt -->
+<div class="view">
+<model-viewer src="https://cdn.glitch.global/80feda79-d6a1-420e-8346-a4bc884b81e2/wall%20climbing%20car.glb?v=1672333125389" ios-src=""
+  poster="" ar-modes="scene-viewer quick-look webxr" shadow-intensity="1" camera-controls autoplay="true" ar>
+</model-viewer>
+</div>
+&nbsp;
+  
+<!-- Loads <model-viewer> for modern browsers: -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<!--model-viewerfor old browsers like IE11: -->
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<!-- windows modal script -->
+<script>
+// Get the modal
+  var modal = document.getElementById("myModal");
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("w1");
+
+// Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+// When the user clicks the button, open the modal
+  btn.onclick = function () {
+    modal.style.display = "block";
+  };
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+    modal.style.display = "none";
+  };
+// When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
+</script>
+<script>
+function myFunction() {
+var dots = document.getElementById("dots");
+var moreText = document.getElementById("more");
+var btnText = document.getElementById("myBtn");
+
+if (dots.style.display === "none") {
+  dots.style.display = "inline";
+  btnText.innerHTML = "Read more"; 
+  moreText.style.display = "none";
+} else {
+  dots.style.display = "none";
+  btnText.innerHTML = "Read less"; 
+  moreText.style.display = "inline";
+}
+}
+</script>
+</div>  
+
+
+<div class="row-lg-5"  style="margin-left: 10%; margin-right: 10%;  height: 50%;
+width: flex;
+background-color:#caf0f8;
+border: 1px solid black;
+border-radius:10px;
+padding:20px;">
+    <div class=" d-flex justify-content-between">
+    <div style="height: 70%;"> <h3>EDODWAJA</h3>
+    
+      </div>
+      <div><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        QR Code
+      </button></div>
+</div>
+</div>
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      <h3 class="text-primary" style="text-align: center; margin: auto;"><b>Scan through mobile </b></h3> 
+      </div>
+      <div class="modal-body">
+          <img src="img/qrc.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+      <div class="modal-footer">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+          Close
+        </button> 
+        <!-- <button class="modal-title" id="exampleModalLongTitle" type="button" class="btn btn-secondary" data-dismiss="modal" >Close</button> -->
+      </div>
+    </div>
+  </div>
+  </div>
+&nbsp;
+<div style="height:400px;
+background-color:#caf0f8;
+border: 1px solid black;
+border-radius:10px;
+padding:20px;
+
+margin-left: auto;
+margin-right: auto; margin-left: 10%; margin-right: 10%;"
+
+  >
+
+
+    <div class="body">
+      <h1 style="font-family:'Times New Roman', Times;">qwerty qwertwertwertyqwertyqwertywertyu</h1>
+    <details>
+     <summary>
+       <span id="open">read more</span> 
+       <span id="close">close</span> 
+     </summary>
+      <h4 style="color: #0e0e52;"> Bus page by edodwaja</h4>
+      <p style="color: #00296b;">
+        A personal computer (PC) is a multi-purpose computer whose size, capabilities, and price make it feasible for individual use. Personal computers are intended to be operated directly by an end user, rather than by a computer expert or technician. Unlike large, costly minicomputers and mainframes, time-sharing by many people at the same time is not used with personal computers.
+
+        Institutional or corporate computer owners in the 1960s had to write their own programs to do any useful work with the machines. While personal computer users may develop their own applications, usually these systems run commercial software, free-of-charge software ("freeware"), which is most often proprietary, or free and open-source software, which is provided in "ready-to-run", or binary, form. Software for personal computers is typically developed and distributed independently from the hardware or operating system manufacturers.Many personal computer users no longer need to write their own programs to make any use of a personal computer, although end-user programming is still feasible. This contrasts with mobile systems, where software is often only available through a manufacturer-supported channel,and end-user program development may be discouraged by lack of support by the manufacturer. </p>
+    </details>
+    </div>
+    </div>
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row gx-5">
+            <div class="col-lg-4 col-md-6 footer-about">
+                <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
+                    <a href="https://edodwaja.com/" class="navbar-brand " target="_blank">
+                        <img style="height: 60px;" src="img/e_11.png" alt="Logo">
+                    </a>
+                    <p class="mt-3 mb-4" style="text-align: justify;">Edodwaja Pvt.Ltd  provides practical education to students so that they can get an understanding about the latest technologies and find their purpose of education for their future goal. The education provided through a mobile bus with a good infrastructure (robotics lab, computer, latest technologies etc). We also encourage students to take entrepreneurship as one of their passion. We are always ready to work with passionate and hard-working people to achieve success.</p>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                            <button class="btn btn-dark">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-6">
+                <div class="row gx-5">
+                    <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="text-light mb-0">Get In Touch</h3>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2" style="color: darkcyan;"></i><a href="https://www.google.co.in/maps/place/EDODWAJA+PVT.+LTD./@17.4997235,78.3980087,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb915866620f4f:0xd6cbe905458901f6!8m2!3d17.4997235!4d78.4001974!16s%2Fg%2F11rhv_q26k" target="_blank" rel="noopener noreferrer" style="color: white;">KPHB, Telangana, India</a></small>
+                        </div>
+                        <div class="d-flex mb-2">
+                            
+                            <small class="text-light"><i class="fa fa-envelope-open me-2" style="color: darkcyan;"></i><a href="mailto:edodwaja1306@gmail.com" style="color: white;">edodwaja1306@gmail.com</a></small>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <small class="me-3 text-light"><i class="fa fa-phone-alt me-2" style="color: darkcyan;"></i><a href="tel:9010388921" style="color:white;">+91 9010388921</a></small>
+                        </div>
+                       
+                        <div class="d-flex mt-4">
+                            <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://twitter.com/edodwaja"   target="_blank"><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/people/Edodwaja-Clairvoyance/100069273602308/"     target="_blank"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F75578886%2Fadmin%2F"   target="_blank"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/edodwaja/"  target="_blank"><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href="https://www.youtube.com/channel/UCoD-y8Ra8YT08-ejF-t-blg"  target="_blank"><i class="fab fa-youtube fw-normal"></i></a>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="text-light mb-0">Quick Links</h3>
+                        </div>
+                        <div class="link-animated d-flex flex-column justify-content-start" style="margin-left: 0%;">
+                            <a class="text-light mb-2" href="index.php"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                            <a class="text-light mb-2" href="about.php"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                           
+                            
+                            <a class="text-light" href="contact.php"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                        <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                            <h3 class="text-light mb-0">Popular Links</h3>
+                        </div>
+                        <div class="link-animated d-flex flex-column justify-content-start">
+                            <a class="text-light mb-2" href="index.php"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                            <a class="text-light mb-2" href="about.php"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                            
+                            <a class="text-light" href="contact.php"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid text-white" style="background: #061429;">
+    <div class="container text-center">
+        <div class="row justify-content-end">
+            <div class="col-lg-8 col-md-6">
+                <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                    <p class="mb-0">&copy; <a class="text-white border-bottom" href="index.php">Edodwaja</a>. All Rights Reserved. 
+                    
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a> -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
